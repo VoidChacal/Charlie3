@@ -1,0 +1,7 @@
+C:\Users\Aluno\Desktop\Chacal\Chacal\bin\Debug\Chacal.exe.config
+C:\Users\Aluno\Desktop\Chacal\Chacal\bin\Debug\Chacal.exe
+C:\Users\Aluno\Desktop\Chacal\Chacal\bin\Debug\Chacal.pdb
+C:\Users\Aluno\Desktop\Chacal\Chacal\obj\Debug\Chacal.csprojAssemblyReference.cache
+C:\Users\Aluno\Desktop\Chacal\Chacal\obj\Debug\Chacal.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\Chacal\Chacal\obj\Debug\Chacal.exe
+C:\Users\Aluno\Desktop\Chacal\Chacal\obj\Debug\Chacal.pdb
