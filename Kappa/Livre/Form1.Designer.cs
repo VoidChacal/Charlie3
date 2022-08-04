@@ -33,19 +33,21 @@ namespace Livre
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.aaaaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aaaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.curiosidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.localizacao = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.teste1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.curiosidadesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.progressbar = new System.Windows.Forms.ToolStripProgressBar();
+            this.info1 = new System.Windows.Forms.RichTextBox();
+            this.loading = new System.Windows.Forms.Button();
+            this.info2 = new System.Windows.Forms.RichTextBox();
+            this.loading2 = new System.Windows.Forms.Button();
+            this.info3 = new System.Windows.Forms.RichTextBox();
+            this.voltar1 = new System.Windows.Forms.Button();
+            this.voltar2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -72,7 +74,7 @@ namespace Livre
             // aaaaToolStripMenuItem
             // 
             this.aaaaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aaaToolStripMenuItem1,
+            this.localizacao,
             this.toolStripSeparator1,
             this.curiosidadesToolStripMenuItem});
             this.aaaaToolStripMenuItem.Font = new System.Drawing.Font("Swis721 BlkCn BT", 9F);
@@ -83,43 +85,17 @@ namespace Livre
             this.aaaaToolStripMenuItem.Text = "Index";
             this.aaaaToolStripMenuItem.Click += new System.EventHandler(this.aaaaToolStripMenuItem_Click);
             // 
-            // aaaToolStripMenuItem1
+            // localizacao
             // 
-            this.aaaToolStripMenuItem1.Name = "aaaToolStripMenuItem1";
-            this.aaaToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.aaaToolStripMenuItem1.Text = "Localização";
-            this.aaaToolStripMenuItem1.Click += new System.EventHandler(this.aaaToolStripMenuItem1_Click);
+            this.localizacao.Name = "localizacao";
+            this.localizacao.Size = new System.Drawing.Size(180, 22);
+            this.localizacao.Text = "Localização";
+            this.localizacao.Click += new System.EventHandler(this.aaaToolStripMenuItem1_Click);
             // 
-            // statusStrip1
+            // toolStripSeparator1
             // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripProgressBar1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
-            this.statusStrip1.TabIndex = 2;
-            this.statusStrip1.Text = "statusStrip1";
-            // 
-            // toolStripProgressBar1
-            // 
-            this.toolStripProgressBar1.Name = "toolStripProgressBar1";
-            this.toolStripProgressBar1.Size = new System.Drawing.Size(100, 16);
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AccessibleDescription = "dasdsdas";
-            this.dataGridView1.AccessibleName = "ddddddddddddd";
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.MenuHighlight;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.teste1,
-            this.Column1});
-            this.dataGridView1.Location = new System.Drawing.Point(548, 237);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
-            this.dataGridView1.TabIndex = 3;
-            this.dataGridView1.Tag = "tretreetrter";
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // curiosidadesToolStripMenuItem
             // 
@@ -127,44 +103,119 @@ namespace Livre
             this.curiosidadesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.curiosidadesToolStripMenuItem.Text = "Curiosidades";
             // 
-            // toolStripSeparator1
+            // statusStrip1
             // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.progressbar});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 428);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
+            this.statusStrip1.TabIndex = 2;
+            this.statusStrip1.Text = "statusStrip1";
             // 
-            // richTextBox2
+            // progressbar
             // 
-            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox2.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.richTextBox2.Location = new System.Drawing.Point(53, 37);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(424, 195);
-            this.richTextBox2.TabIndex = 5;
-            this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
+            this.progressbar.Name = "progressbar";
+            this.progressbar.Size = new System.Drawing.Size(100, 16);
+            this.progressbar.Click += new System.EventHandler(this.toolStripProgressBar1_Click);
             // 
-            // teste1
+            // info1
             // 
-            this.teste1.Frozen = true;
-            this.teste1.HeaderText = "chacal";
-            this.teste1.Name = "teste1";
-            this.teste1.ReadOnly = true;
-            this.teste1.ToolTipText = "adaaadadd";
+            this.info1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.info1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.info1.Location = new System.Drawing.Point(53, 37);
+            this.info1.Name = "info1";
+            this.info1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedHorizontal;
+            this.info1.Size = new System.Drawing.Size(424, 201);
+            this.info1.TabIndex = 5;
+            this.info1.Text = resources.GetString("info1.Text");
+            this.info1.TextChanged += new System.EventHandler(this.richTextBox2_TextChanged);
             // 
-            // Column1
+            // loading
             // 
-            this.Column1.Frozen = true;
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.ToolTipText = "aaaaaaa";
+            this.loading.Location = new System.Drawing.Point(631, 366);
+            this.loading.Name = "loading";
+            this.loading.Size = new System.Drawing.Size(124, 42);
+            this.loading.TabIndex = 6;
+            this.loading.Text = "click1";
+            this.loading.UseVisualStyleBackColor = true;
+            this.loading.Click += new System.EventHandler(this.loading_Click);
+            // 
+            // info2
+            // 
+            this.info2.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.info2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.info2.Location = new System.Drawing.Point(53, 78);
+            this.info2.Name = "info2";
+            this.info2.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedHorizontal;
+            this.info2.Size = new System.Drawing.Size(424, 330);
+            this.info2.TabIndex = 7;
+            this.info2.Text = resources.GetString("info2.Text");
+            this.info2.Visible = false;
+            this.info2.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
+            // 
+            // loading2
+            // 
+            this.loading2.Location = new System.Drawing.Point(492, 366);
+            this.loading2.Name = "loading2";
+            this.loading2.Size = new System.Drawing.Size(124, 42);
+            this.loading2.TabIndex = 8;
+            this.loading2.Text = "click2";
+            this.loading2.UseVisualStyleBackColor = true;
+            this.loading2.Visible = false;
+            this.loading2.Click += new System.EventHandler(this.loading2_Click);
+            // 
+            // info3
+            // 
+            this.info3.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.info3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info3.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.info3.Location = new System.Drawing.Point(53, 141);
+            this.info3.Name = "info3";
+            this.info3.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedHorizontal;
+            this.info3.Size = new System.Drawing.Size(424, 166);
+            this.info3.TabIndex = 9;
+            this.info3.Text = "Sua alimentação é composta de 54% carne e 46% de vegetais. Alimenta-se de frutas," +
+    " plantas, invertebrados, répteis, anfíbios, pássaros terrestres, ovos, pequenos " +
+    "mamíferos e carniça.";
+            this.info3.Visible = false;
+            // 
+            // voltar1
+            // 
+            this.voltar1.Location = new System.Drawing.Point(631, 306);
+            this.voltar1.Name = "voltar1";
+            this.voltar1.Size = new System.Drawing.Size(124, 42);
+            this.voltar1.TabIndex = 10;
+            this.voltar1.Text = "Retroceder";
+            this.voltar1.UseVisualStyleBackColor = true;
+            this.voltar1.Visible = false;
+            this.voltar1.Click += new System.EventHandler(this.voltar1_Click);
+            // 
+            // voltar2
+            // 
+            this.voltar2.Location = new System.Drawing.Point(492, 306);
+            this.voltar2.Name = "voltar2";
+            this.voltar2.Size = new System.Drawing.Size(124, 42);
+            this.voltar2.TabIndex = 11;
+            this.voltar2.Text = "Retroceder2";
+            this.voltar2.UseVisualStyleBackColor = true;
+            this.voltar2.Visible = false;
+            this.voltar2.Click += new System.EventHandler(this.voltar2_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.richTextBox2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.voltar2);
+            this.Controls.Add(this.voltar1);
+            this.Controls.Add(this.info3);
+            this.Controls.Add(this.loading2);
+            this.Controls.Add(this.info2);
+            this.Controls.Add(this.loading);
+            this.Controls.Add(this.info1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
@@ -176,7 +227,6 @@ namespace Livre
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,15 +237,18 @@ namespace Livre
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem aaaaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aaaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem localizacao;
         private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ToolStripProgressBar progressbar;
         private System.Windows.Forms.ToolStripMenuItem curiosidadesToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn teste1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.RichTextBox info1;
+        private System.Windows.Forms.Button loading;
+        private System.Windows.Forms.RichTextBox info2;
+        private System.Windows.Forms.Button loading2;
+        private System.Windows.Forms.RichTextBox info3;
+        private System.Windows.Forms.Button voltar1;
+        private System.Windows.Forms.Button voltar2;
     }
 }
 

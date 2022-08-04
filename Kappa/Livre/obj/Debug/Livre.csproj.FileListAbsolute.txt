@@ -8,3 +8,13 @@ C:\Users\Aluno\Desktop\Nova pasta\Livre\Livre\obj\Debug\Livre.csproj.GenerateRes
 C:\Users\Aluno\Desktop\Nova pasta\Livre\Livre\obj\Debug\Livre.csproj.CoreCompileInputs.cache
 C:\Users\Aluno\Desktop\Nova pasta\Livre\Livre\obj\Debug\Livre.exe
 C:\Users\Aluno\Desktop\Nova pasta\Livre\Livre\obj\Debug\Livre.pdb
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\obj\Debug\Livre.csproj.AssemblyReference.cache
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\obj\Debug\Livre.exe
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\obj\Debug\Livre.pdb
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\bin\Debug\Livre.exe.config
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\bin\Debug\Livre.exe
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\bin\Debug\Livre.pdb
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\obj\Debug\Livre.Form1.resources
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\obj\Debug\Livre.Properties.Resources.resources
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\obj\Debug\Livre.csproj.GenerateResource.cache
+C:\Users\Aluno\Downloads\Charlie3-main\Kappa\Livre\obj\Debug\Livre.csproj.CoreCompileInputs.cache

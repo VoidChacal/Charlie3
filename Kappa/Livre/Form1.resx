@@ -646,13 +646,10 @@
   <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
-  <metadata name="teste1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="richTextBox2.Text" xml:space="preserve">
+  <data name="info1.Text" xml:space="preserve">
     <value>Parecido com a raposa, o chacal é um animal da família do cão. À noite, os chacais uivam para se comunicar entre si. O uivo pode ser bastante cansativo para as pessoas — o som lembra um grito alto ou uma sirene.</value>
+  </data>
+  <data name="info2.Text" xml:space="preserve">
+    <value>Os chacais vivem sozinhos, em pares ou em grupos chamados matilhas. Escondem-se durante o dia e quando escurece saem para caçar. Comem pequenos animais e plantas. Quando caçam em matilhas, podem pegar animais tão grandes quanto uma Ovelha ou um Antílope. Também seguem os leões que estão caçando. Depois que os leões terminam de comer e vão embora, os chacais entram em cena e comem as sobras que ficaram.</value>
   </data>
 </root>
